@@ -1,0 +1,4 @@
+files/*
+results/*
+*.o
+*.sfr
