@@ -1,4 +1,4 @@
-# Safer+ speed test impleentation
+# Safer+ speed test implementation
 
 
 ## Context
@@ -10,13 +10,13 @@ SAFER+ has two subsystems: the key scheduling subsystem and the encryption subsy
 ## Usage
 
 saferenc <inputkey.file> <plain_data.file> <encrypted_output.file> 
-inputkey.file Input file with 128-bit key.
-plain_data.file Input file of arbitrary size with unencrypted data. 
-encrypted_output.file Output file with encrypted data.
+- inputkey.file : Input file with 128-bit key.
+- plain_data.file : Input file of arbitrary size with unencrypted data. 
+- encrypted_output.file : Output file with encrypted data.
 
 saferdec <inputkey.file> <encrypted_data.file> <plain_output.file>
-inputkey.file Input file with 128-bit key.
-encrypted_data.file Input file of arbitrary size with encrypted data. 
-plain_output.file Output file with unencrypted data.
+- inputkey.file : Input file with 128-bit key.
+- encrypted_data.file : Input file of arbitrary size with encrypted data. 
+- plain_output.file : Output file with unencrypted data.
 
 
